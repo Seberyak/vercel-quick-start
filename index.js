@@ -1,14 +1,14 @@
 const express = require('express');
 const product = require('./api/product');
 
-const app = express();
+const index = express();
 
 const PORT = process.env.PORT || 5050;
 
-app.use("/api/product", product);
+index.use("/api/product", product);
 
-app.listen(PORT, () => {
+index.listen(PORT, () => {
     console.log(`Server listening on port ${PORT}`);
 });
 
-module.exports = app;
+module.exports = index;
