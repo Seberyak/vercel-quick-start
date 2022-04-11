@@ -1,0 +1,13 @@
+dist
+
+node_modules
+package-lock.json
+
+/.idea/.gitignore
+/.idea/runConfigurations/bin_www.xml
+/src/index.js
+/.idea/jsLibraryMappings.xml
+/.idea/modules.xml
+/src/api/product.js
+/.idea/vcs.xml
+/.idea/vercel-quick-start.iml
