@@ -1,0 +1,15 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "commonjs",
+    "incremental": true,
+    "declaration": true,
+    "removeComments": true,
+    "target": "es2017"
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
